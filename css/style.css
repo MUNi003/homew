@@ -1,0 +1,41 @@
+.a1 div img{
+    transition: 1s;
+}
+.a1 div img:hover{
+    transform: scale(1.2);
+}
+
+@media (max-width:992px) {
+    .b1{
+        width: 30% !important;
+    }
+    .b-3{
+        margin-top: 5rem;
+        width: 100% !important;
+    }
+    .a1 div img{
+        width: 200px !important;
+        height: 200px !important;
+    }
+}
+
+@media (max-width:768px) {
+    .b1{
+        width: 100% !important;
+        margin-bottom: 3rem;
+    }
+    .b2{
+        width: 100%;
+    }
+    .b2 .card{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .a1 div {
+        text-align: center;
+    }
+    .a1 div img{
+        width: 230px !important;
+        height: 230px !important;
+    }
+}
